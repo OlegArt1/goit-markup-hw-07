@@ -422,51 +422,47 @@
             <div class="modal__wrapper">
                 <button class="modal__button-close" type="button" data-modal-close>
                     <svg class="modal__icon-close" width="18" height="18">
-                        <use href="./images/icons.svg#icon-modal-close" />
+                        <use href="./images/icons.svg#icon-modal-close"/>
                     </svg>
                 </button>
-                <div class="wrapper__block">
+                <div class="modal__wrapper-block">
                     <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
                     <form class="modal__form">
                         <div class="modal__field">
-                            <label class="input__label" for="user-name"><span>Ім'я</span>
-                                <span class="input__wrap">
-                                    <input class="modal__input" name="user-name" type="text" required id="user-name"
-                                        placeholder="" />
+                            <label class="modal__input-label" for="user-name"><span>Ім'я</span>
+                                <span class="modal__input-wrap">
+                                    <input class="modal__input" name="user-name" type="text" required id="user-name" placeholder=""/>
                                     <svg class="modal__input-icon" width="18" height="18">
-                                        <use href="./images/icons.svg#icon-form-person-modal" />
+                                        <use href="./images/icons.svg#icon-form-person-modal"/>
                                     </svg>
                                 </span>
                             </label>
-                            <label class="input__label"><span>Телефон</span>
-                                <span class="input__wrap">
-                                    <input class="modal__input" name="user-tel" type="tel" title="+380 (96) 111-11-11"
-                                        placeholder="" required />
+                            <label class="modal__input-label"><span>Телефон</span>
+                                <span class="modal__input-wrap">
+                                    <input class="modal__input" name="user-tel" type="tel" title="+380 (96) 111-11-11" placeholder="" required/>
                                     <svg class="modal__input-icon" width="18" height="18">
-                                        <use href="./images/icons.svg#icon-form-phone-modal" />
+                                        <use href="./images/icons.svg#icon-form-phone-modal"/>
                                     </svg>
                                 </span>
                             </label>
-                            <label class="input__label"><span>Пошта</span>
-                                <div class="input__wrap">
-                                    <input class="modal__input" name="user-email" type="email" placeholder="" />
+                            <label class="modal__input-label"><span>Пошта</span>
+                                <div class="modal__input-wrap">
+                                    <input class="modal__input" name="user-email" type="email" placeholder=""/>
                                     <svg class="modal__input-icon" width="18" height="18">
-                                        <use href="./images/icons.svg#icon-form-email-modal" />
+                                        <use href="./images/icons.svg#icon-form-email-modal"/>
                                     </svg>
                                 </div>
                             </label>
                         </div>
                         <div class="modal__field">
-                            <label class="input__label" for="user-comment">Коментар</label>
-                            <textarea class="modal__textarea-text" id="user-comment" name="user-comment"
-                                placeholder="Введіть текст"></textarea>
+                            <label class="modal__input-label" for="user-comment">Коментар</label>
+                            <textarea class="modal__textarea-text" id="user-comment" name="user-comment" placeholder="Введіть текст"></textarea>
                         </div>
                         <div class="modal__field">
                             <label class="modal__checkbox-text">
-                                <input class="check__input" name="user-checkbox" type="checkbox" />
-                                <span class="check__box"></span>
-                                <span class="modal__text-span">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-text"
-                                        href="#text">Умови договору</a></span>
+                                <input class="modal__check-input" name="user-checkbox" type="checkbox"/>
+                                <span class="modal__check-box"></span>
+                                <span class="modal__text-span">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal__text" href="#text">Умови договору</a></span>
                             </label>
                         </div>
                         <button class="modal__button" type="submit">Відправити</button>
